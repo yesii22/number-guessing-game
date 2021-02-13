@@ -1,15 +1,6 @@
-# number-guessing-game
-Instructions: 
- Write an application that plays “guess the number” as follows: Your program chooses the number to be by selecting a random number 
- in the range 1 to 1000. The application then displays a prompt: Guess a number between 1 and 1000. 
-The player inputs a first guess. If the guess is wrong the program your program should display
-Too Low. Try again:
-  or
-Too High. Try again
-Then prompt the user for the next guess.  When the user enters the correct answer display:
-Congratulations you are correct.
-Enter true to play again, false to terminate the game:
-This program must use a method checkNumber that return 0 if the number is correct, 1 if it is too low, and 2 if it is too high.  
-The header for this method would be: public static int checkNumber(int correctNum, int guess)
+Number Guessing Game
+Description: 
+The program randomly selects a number between 1 and 1000. The user enters their first guess, and if the guess is incorrect the program states whether the number entered is too high or too low. After every guess the new range is displayed, allowing for a better chance of arriving at the correct answer. If the user wants to keep playing, they can enter true/false at the last prompt. Every time the user guesses the right answer, the number of total attempts gets displayed. 
 
+Here is a sample run:
 ![Sample Run](Sample_Run.PNG)
