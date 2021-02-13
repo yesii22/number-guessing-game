@@ -12,3 +12,4 @@ Enter true to play again, false to terminate the game:
 This program must use a method checkNumber that return 0 if the number is correct, 1 if it is too low, and 2 if it is too high.  
 The header for this method would be: public static int checkNumber(int correctNum, int guess)
 
+![Sample Run](Sample_Run.png)
